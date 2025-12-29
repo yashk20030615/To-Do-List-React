@@ -1,0 +1,90 @@
+.top{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding:10px;
+}
+.tinput {
+    width: 60%;
+    height: 200px;
+    resize: none;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: darkblue;
+    color: white;
+    padding: 8px 16px;
+    width:70%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+.tlist {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    color:black;
+    margin-bottom: 10px;
+    
+}
+.titem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: darkblue;
+    padding: 5px;
+    margin-top: 8px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid orangered;
+}
+.head{
+    width: 100%;
+    padding: 10px 5x;
+    margin-top: 0;
+    background-color: darkblue;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.titem span{
+  color:black;
+  text-align: left;
+  flex:1;
+}
+.edtbtn{
+  background-color: navy; /* Dark blue background */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.dltbtn{
+  background-color: red; /* Red background */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tbtn{
+  display: flex;
+  gap: 5px;
+}
