@@ -1,20 +1,69 @@
-<<<<<<< HEAD
-# React + Vite
+# 📝 To-Do List Application (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional and responsive **To-Do List Application** built using **React.js**.  
+This project is designed to help users organize their daily tasks efficiently with a clean user interface and smooth user experience.
 
-Currently, two official plugins are available:
+The application allows users to **add, edit, delete, and manage tasks**, making it ideal for daily productivity tracking. It is built with modern React practices and optimized using **Vite** for fast performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Managing daily tasks is an essential part of productivity. This To-Do List application provides a simple yet powerful way to keep track of tasks.  
+The app focuses on **simplicity, speed, and usability**, making it suitable for beginners learning React as well as for real-world usage.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# To-Do-List-React
->>>>>>> b0374a86aa0c4e5545d04aca60d503e65b5f751a
+## 🚀 Features
+
+- ➕ Add new tasks easily
+- ✏️ Edit existing tasks
+- ❌ Delete tasks
+- ✅ Mark tasks as completed
+- 💾 Persistent data storage using **Local Storage**
+- ⚡ Fast loading with **Vite**
+- 🎨 Clean and responsive UI
+- 📱 Works on desktop and mobile devices
+
+---
+
+## 🛠️ Tech Stack Used
+
+### Frontend
+- **React.js**
+- **JavaScript (ES6+)**
+- **Vite**
+
+### Styling
+- **CSS**
+- **Bootstrap** (if used)
+
+### State Management
+- React Hooks:
+  - `useState`
+  - `useEffect`
+
+### Storage
+- Browser **Local Storage**
+
+---
+
+## 📂 Project Structure
+
+To-Do-List-React/
+│
+├── public/
+│
+├── src/
+│ ├── components/
+│ │ ├── TodoForm.jsx
+│ │ ├── TodoList.jsx
+│ │ └── TodoItem.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
